@@ -1,0 +1,211 @@
+
+:root {
+    --font-size: 18px;
+    --font-family-BaiJamjuree: "Bai Jamjuree", sans-serif;
+    --font-weight-Reg: 400;
+    --font-weight-SemiBold: 600;
+    --color-primary-Strong-Cyan: hsl(171, 66%, 44%);
+    --color-primary-Light-Blue: hsl(233, 100%, 69%);
+    --color-neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --color-neutral-Grayish-Blue: hsl(201, 11%, 66%);
+    --color-neutral-White: hsl(0, 0%, 100%);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size);
+    font-family: var(--font-family-BaiJamjuree);
+    font-weight: var(--font-weight-Reg);
+    color: var(--color-neutral-Dark-Grayish-Blue);
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  p {
+    color: var(--color-neutral-Grayish-Blue);
+    margin-bottom: 2rem;
+  }
+  .buttons {
+    display: flex;
+    margin-bottom: 10rem;
+  }
+  .iOS {
+    width: 240px;
+    word-spacing: 2px;
+    padding: 2%;
+    margin: 2%;
+    background-color: var(--color-primary-Strong-Cyan);
+    color: var(--color-neutral-White);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 2px 1px hsl(171, 66%, 30%), 0 3px 13px rgba(38, 186, 164, 0.7);
+  }
+  .iOS:hover {
+    cursor: pointer;
+    background-color: rgba(38, 186, 164, 0.8);
+  }
+
+  .Mac {
+    width: 240px;
+    word-spacing: 2px;
+    padding: 3%;
+    margin: 2%;
+    background-color: var(--color-primary-Light-Blue);
+    color: var(--color-neutral-White);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 2px 1px hsl(233, 40%, 45%), 0 3px 13px rgba(0, 0, 0, 0.3);
+  } 
+   .Mac:hover {
+    cursor: pointer;
+    background-color: rgba(67, 115, 255, 0.8);
+  }
+  .buttons{
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  header {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header > img {
+    margin: 8rem 0 3rem 0;
+  }
+  .header > p {
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: var(--font-weight-SemiBold);
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 35px;
+    font-weight: var(--font-weight-SemiBold);
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: var(--font-weight-SemiBold);
+    margin-bottom: 1rem;
+    margin: 0;
+  }
+  
+  .A {
+    width: 38rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .A> p {
+    margin-bottom: 5rem;
+  }
+  .B{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10rem;
+  }
+  .list {
+    word-spacing: 0.2rem;
+    flex: 1;
+    list-style-type: none;
+    margin: 4rem 15rem 0 5rem;
+  }
+  .list > li > p {
+    margin-bottom: 2rem;
+    line-height: 2rem;
+  }
+  .B> img {
+    max-width: 50%;
+    margin-top: 3rem;
+  }
+  
+  .C {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 3rem;
+  }
+  .C > p {
+    line-height: 2rem;
+    margin-bottom: 5rem;
+  }
+  
+  .D {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-left: 8rem;
+  }
+  .blacklist,.text,.icon {
+    text-align: center;
+    width: 23rem;
+    line-height: 2rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 6rem;
+    margin-right: 1rem;
+  }
+  .D {
+    margin-bottom: 3rem;
+    display: flex;
+  }
+
+  .image {
+    display: flex;
+    margin: 0 9rem 10rem;
+    gap: 7rem;
+  }
+  .F {
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .foot {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr;
+    background-color: hsl(201, 11%, 66%, 0.1);
+    padding: 2rem 2rem;
+  }
+  .hm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .hmm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .foot > img {
+    width: 3rem;
+  }
+  .social {
+    margin-left: 16rem;
+  }
+  .social > img {
+    margin-right: 1rem;
+  }
